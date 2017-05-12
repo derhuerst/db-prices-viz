@@ -1,6 +1,6 @@
 # db-prices-viz
 
-**Find out when to buy DB tickets.**
+**Find out when to buy DB tickets.** Expects data from [`db-prices-radar`](https://github.com/juliuste/db-prices-radar#db-prices-radar) to be inside the `data` directory.
 
 [![npm version](https://img.shields.io/npm/v/db-prices-viz.svg)](https://www.npmjs.com/package/db-prices-viz)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/db-prices-viz.svg)

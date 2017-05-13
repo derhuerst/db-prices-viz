@@ -20,7 +20,12 @@ const query = (origin, destination, departure, arrival, lines) => {
 		hostname: 'localhost',
 		port: 3000,
 		pathname: '/',
-		query: {origin, destination, departure, arrival, lines: lines.join(',')}
+		query: {
+			origin, destination,
+			departure: departure.toISOString(),
+			arrival: arrival.toISOString(),
+			lines: lines.join(',')
+		}
 	})
 
 	return fetch(target, {
@@ -35,7 +40,7 @@ const query = (origin, destination, departure, arrival, lines) => {
 		}
 
 		// todo: streaming
-		return res.buffer()
+		return res.text()
 	})
 	.then((data) => {
 		const s = ndjson.parse()

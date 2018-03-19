@@ -1,6 +1,8 @@
 'use strict'
 
-const {fetch} = require('fetch-ponyfill')()
+const {fetch} = require('fetch-ponyfill')({
+	Promise: require('pinkie-promise')
+})
 const url = require('url')
 const ndjson = require('ndjson')
 

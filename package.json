@@ -16,6 +16,7 @@
 		"from2": "^2.3.0",
 		"is-roughly-equal": "^0.1.0",
 		"ndjson": "^1.5.0",
+		"pinkie-promise": "^2.0.1",
 		"slugg": "^1.2.0",
 		"stream-filter": "^2.1.0",
 		"through2": "^2.0.3",

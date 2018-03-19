@@ -1,15 +1,19 @@
 {
-	"name":        "db-prices-viz",
+	"name": "db-prices-viz",
 	"description": "Find out when to buy DB tickets.",
-	"version":     "0.1.0",
-	"keywords":    ["todo"],
-	"main":        "index.js",
-	"author":      "Jannis R <mail@jannisr.de>",
-	"homepage":    "https://github.com/derhuerst/db-prices-viz",
-	"repository":  "derhuerst/db-prices-viz",
-	"issues":      "https://github.com/derhuerst/db-prices-viz/issues",
-	"license":     "ISC",
-	"engines" :    {"node": ">=6"},
+	"version": "0.1.0",
+	"keywords": [
+		"todo"
+	],
+	"main": "index.js",
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/db-prices-viz",
+	"repository": "derhuerst/db-prices-viz",
+	"issues": "https://github.com/derhuerst/db-prices-viz/issues",
+	"license": "ISC",
+	"engines": {
+		"node": ">=6"
+	},
 	"dependencies": {
 		"corser": "^2.0.1",
 		"fetch-ponyfill": "^4.0.0",

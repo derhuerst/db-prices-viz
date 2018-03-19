@@ -5,6 +5,7 @@
 [![npm version](https://img.shields.io/npm/v/db-prices-viz.svg)](https://www.npmjs.com/package/db-prices-viz)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/db-prices-viz.svg)
 [![chat on gitter](https://badges.gitter.im/derhuerst.svg)](https://gitter.im/derhuerst)
+[![support me on Patreon](https://img.shields.io/badge/support%20me-on%20patreon-fa7664.svg)](https://patreon.com/derhuerst)
 
 
 ## Installing

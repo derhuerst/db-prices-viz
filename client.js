@@ -24,8 +24,8 @@ const query = (origin, destination, departure, arrival, lines) => {
 		pathname: '/',
 		query: {
 			origin, destination,
-			departure: departure.toISOString(),
-			arrival: arrival.toISOString(),
+			departure: new Date(departure).toISOString(),
+			arrival: new Date(arrival).toISOString(),
 			lines: lines.join(',')
 		}
 	})
